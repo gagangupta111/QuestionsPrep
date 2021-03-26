@@ -2,13 +2,18 @@ package com.java.questions.high.graphs;
 
 import java.util.Objects;
 
-class Node{
+public class Node{
 
     public int value;
     public int weight;
     public Node next;
+    public String name;
 
     public Node() {
+    }
+
+    public Node(String name) {
+        this.name = name;
     }
 
     public Node(int value, int weight) {
@@ -18,9 +23,11 @@ class Node{
 
     @Override
     public String toString() {
-        return "{" +
+        return "Node{" +
                 "value=" + value +
                 ", weight=" + weight +
+                ", next=" + next +
+                ", name='" + name + '\'' +
                 '}';
     }
 

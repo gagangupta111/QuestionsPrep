@@ -4,12 +4,16 @@ import java.util.*;
 
 public class Graph_Another implements Graph {
 
-    int[][] adj;
-    int[][] weights;
+    public int[][] adj;
+    public int[][] weights;
 
-    int totalNodes;
-    List<Node> nodes = new ArrayList<>();
-    Map<String, Node> nodeMap = new LinkedHashMap<>();
+    public int totalNodes;
+
+    // get node for an index
+    public List<Node> nodes = new ArrayList<>();
+
+    // get index for a node
+    public Map<String, Integer> nodeIndexMap = new LinkedHashMap<>();
 
     public Graph_Another(int totalNodes){
         this.totalNodes = totalNodes;
@@ -133,10 +137,90 @@ public class Graph_Another implements Graph {
 
         }
 
+        System.out.println();
+        for (int i = 0 ; i < nodes.size(); i++){
+
+            System.out.println("Index: " + i + ", Name: " + nodes.get(i).name);
+
+        }
+
     }
 
     @Override
     public void setShortestPath(int start, boolean longest) {
 
+        int[] distances = new int[adj.length];
+        Set<Integer> visited = new LinkedHashSet<>();
+        List<List<String>> paths = new ArrayList<>();
+
+        for (int i = 0; i < adj.length; i++){
+            paths.add(new ArrayList<>());
+            if (weights[start][i] == 0){
+                distances[i] =  longest ? Integer.MIN_VALUE : Integer.MAX_VALUE;
+            }else {
+                distances[i] = weights[start][i];
+                paths.get(i).add(nodes.get(start).name);
+                paths.get(i).add(nodes.get(i).name);
+            }
+        }
+        distances[start] = 0;
+
+        setShortestPath(distances, visited, paths, longest);
+
+        System.out.println();
+        for (int i = 0; i < distances.length; i++){
+
+            System.out.println();
+            System.out.println("Distance from : " + nodes.get(start).name + " to : " + nodes.get(i).name + " is : " + distances[(i)]);
+            System.out.println("Paths from : " + nodes.get(start).name + " to : " + nodes.get(i).name + " is : " + paths.get(i));
+
+        }
+
+    }
+
+    public int get_Smallest_Distanced_Non_Visited_Index(int[] distances,  Set<Integer> visited){
+
+        Map<Integer, Integer> sortedMap = new LinkedHashMap<>();
+        for (int i  = 0 ; i < distances.length; i++){
+            if (visited.contains(i)){
+                continue;
+            }
+            sortedMap.put(distances[i], i);
+        }
+
+        int smallestDistance = Integer.MAX_VALUE;
+        int smallestIndex = -1;
+        for (Integer integer : sortedMap.keySet()){
+            if (integer < smallestDistance && !visited.contains(sortedMap.get(integer))){
+                smallestDistance = integer;
+                smallestIndex = sortedMap.get(integer);
+            }
+        }
+
+        return smallestIndex;
+    }
+
+    public void setShortestPath(int[] distances,  Set<Integer> visited, List<List<String>> paths, boolean longest) {
+
+        int smallest = get_Smallest_Distanced_Non_Visited_Index(distances, visited);
+        if (smallest == -1){
+            return;
+        }
+
+        for (int i = 0 ; i < adj.length; i++){
+            if (adj[smallest][i] == 1){
+                int originalDistance = distances[i];
+                int newDistance = distances[smallest] + weights[smallest][i];
+                if ((longest && newDistance > originalDistance) || (!longest && newDistance < originalDistance)){
+                    distances[i] = newDistance;
+                    paths.get(i).addAll(paths.get(smallest));
+                    paths.get(i).add(nodes.get(i).name);
+                }
+            }
+        }
+
+        visited.add(smallest);
+        setShortestPath(distances, visited, paths, longest);
+        return;
     }
 }

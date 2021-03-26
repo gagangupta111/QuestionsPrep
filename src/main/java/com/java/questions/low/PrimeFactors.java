@@ -47,16 +47,13 @@ public class PrimeFactors {
         // that we can skip
         // middle five numbers
         // in below loop
-        if (n % 2 == 0 ||
-                n % 3 == 0)
-            return false;
+        for (int i = 2; i <= n/2; i++){
 
-        for (int i = 5;
-             i * i <= n; i = i + 6)
-            if (n % i == 0 ||
-                    n % (i + 2) == 0)
+            if (n % i == 0){
                 return false;
+            }
 
+        }
         return true;
     }
 
@@ -81,8 +78,22 @@ public class PrimeFactors {
     public static void main(String args[])
     {
 
-        for (Integer integer : primeFactorization(122)){
-            System.out.print(integer + " , ");
+        boolean result = true;
+        result &= primeFactorization(6).contains(2);
+        result &= primeFactorization(6).contains(3);
+        result &= !primeFactorization(6).contains(4);
+        result &= !primeFactorization(6).contains(5);
+
+
+        result &= primeFactorization(8).contains(2);
+        result &= primeFactorization(25).contains(5);
+        result &= primeFactorization(20).contains(2);
+        result &= primeFactorization(20).contains(5);
+
+        if (result) {
+            System.out.println("Pass");
+        } else {
+            System.out.println("Fail");
         }
 
     }

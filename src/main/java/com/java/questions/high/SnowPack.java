@@ -39,7 +39,9 @@ package com.java.questions.high;
 
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 public class SnowPack {
 
@@ -50,6 +52,9 @@ public class SnowPack {
     private static int capturedSnow = 0;
 
     public static int findHighestHillIndex(List<Integer> queue, Integer[] arr){
+
+
+        Map<Integer, Integer> map = new LinkedHashMap<>();
 
         int max = Integer.MIN_VALUE;
         int maxIndex = -1;
