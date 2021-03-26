@@ -130,6 +130,7 @@ public class SnowPack {
         boolean result = true;
         result &= computeSnowpack(new Integer[]{0,1,3,0,1,2,0,4,2,0,3,0}) == 13;
         result &= computeSnowpack(new Integer[]{0,1,4,0,1,2,0,4,2,0,3,0}) == 17;
+        result &= computeSnowpack(new Integer[]{4,1,5,0,1,2,0,4,2,0,3,0}) == 20;
 
         return result;
     }
