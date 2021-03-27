@@ -9,20 +9,34 @@ public class AddFraction {
     public static int[] addFractions( int[] fraction1, int[] fraction2 ) {
         // Write your code here
 
-        int ground  = fraction1[1] * fraction2[1];
+        if(fraction1 == null || fraction2 == null){
+            throw new IllegalArgumentException("Illegal Arguments");
+        }
+
+        if(fraction1[0] == 0 || fraction2[0] == 0){
+            throw new IllegalArgumentException("Illegal Arguments");
+        }
+
+
+        int ground = 0;
         int upper = 0;
         int gcd = 1;
-        upper += fraction1[0] * fraction2[1];
-        upper += fraction1[1] * fraction2[0];
 
-        for(int i = 1; i <= ground && i <= upper; i++)
-        {
-            if(ground % i == 0 && upper % i == 0)
+        upper += ( fraction1[0] *  fraction2[1] ) +  ( fraction1[1] *  fraction2[0] );
+        ground += ( fraction1[1] *  fraction2[1] ) ;
+
+
+        for (int i = 1; i <= ground && i <= upper; i++){
+
+            if(ground % i == 0 && upper % i == 0){
                 gcd = i;
+            }
+
         }
 
         ground = ground / gcd;
         upper = upper / gcd;
+
 
         return ( new int[]{ upper, ground } );
     }
@@ -36,14 +50,5 @@ public class AddFraction {
         } else {
             System.out.println( "Test failed." );
         }
-
-        result = addFractions( new int[]{ 21, 32 }, new int[]{ 14, 26 } );
-
-        if( result[ 0 ] == 497 && result[ 1 ] == 416 ) {
-            System.out.println( "Test passed." );
-        } else {
-            System.out.println( "Test failed." );
-        }
     }
-
 }

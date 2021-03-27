@@ -12,6 +12,8 @@ public class GroupAnagram {
         Set<String> anagrams = new LinkedHashSet<>();
         List<String> all = new LinkedList<>(Arrays.asList(inputString.split(" ")));
 
+        LinkedHashSet<Integer> set = new LinkedHashSet<>();
+
         while (all.size() > 0){
 
             String one = all.get(0);
