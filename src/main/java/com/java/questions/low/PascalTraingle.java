@@ -30,26 +30,6 @@ public class PascalTraingle {
         return arr[row][col];
     }
 
-    public static  int pascal(int col, int row){
-
-        List<Integer> lineIntegers = new LinkedList<>();
-        for(int line = 1; line <= row; line++)
-        {
-            int C=1;// used to represent C(line, i)
-            for(int i = 1; i <= line; i++)
-            {
-                C = C * (line - i) / i;
-                if (line == row){
-                    lineIntegers.add(C);
-                }
-            }
-        }
-        if (row == 0){
-            return 1;
-        }
-        return lineIntegers.get(col);
-    }
-
     public static void main(String[] args) {
 
         if(PascalTraingle.pascalMatrix(0,0) ==  1 &&

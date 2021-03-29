@@ -1,9 +1,22 @@
 package com.java.questions.low;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class DotProduct {
 
     public static int dotProduct( int[] array1, int[] array2 ) {
 
+
+        Map<String, Integer> map = new HashMap<>();
+
+
+        for (Map.Entry<String, Integer> entry : map.entrySet()){
+
+            System.out.println(entry.getKey());
+            System.out.println(entry.getValue());
+
+        }
         int product = 0;
 
         for (int i = 0; i < array1.length; i++){

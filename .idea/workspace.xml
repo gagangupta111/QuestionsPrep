@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f788971-d402-49e5-b906-11006b33685c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/CountLengthOfCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Election.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MedianOf2SortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/SubArrayExceedingSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Uniquetuples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/AddFraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/AddFraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/DequeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/DequeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/PrimeFactors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SquareRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/lengthEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/lengthEncoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/low/AddFraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/low/AddFraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/low/GroupAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/low/GroupAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/questions/low/GroupAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/questions/low/GroupAnagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/low/DotProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/low/DotProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/low/PascalTraingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/low/PascalTraingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,20 +29,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DequeExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/DequeExample.java">
+      <file leaf-file-name="MagicPotion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="400">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/GroupAnagrams.java">
+      <file leaf-file-name="MagicPotion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="1320">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Uniquetuples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Uniquetuples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lengthEncoding.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/lengthEncoding.java">
+      <file leaf-file-name="MedianOf2SortedArrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MedianOf2SortedArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubArrayExceedingSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/SubArrayExceedingSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,15 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/SecondSmallest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/SearchTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/RunLengthEncoding.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/FirstNonRepeating.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/PascalTraingle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/ReverseString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/IsPowerOf10.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/DotProduct.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/Election.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/Panagram.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/ApacheLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/ATOI.java" />
@@ -99,7 +110,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/DecimalConversion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/Tes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Using_Matrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Using_List.java" />
@@ -126,10 +136,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/lengthEncoding.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/Deque.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/DequeExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/PascalTraingle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/DotProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/CountLengthOfCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/CountLengthOfCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Election.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Uniquetuples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MedianOf2SortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/SubArrayExceedingSum.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -200,8 +220,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="answers" type="462c0819:PsiDirectoryNode" />
-              <item name="low" type="462c0819:PsiDirectoryNode" />
-              <item name="DequeExample.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SapientQuestionsJavaintellij" type="b2602c69:ProjectViewProjectNode" />
@@ -221,6 +240,16 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="questions" type="462c0819:PsiDirectoryNode" />
               <item name="low" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SapientQuestionsJavaintellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SapientQuestionsJavaintellij" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="questions" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SapientQuestionsJavaintellij" type="b2602c69:ProjectViewProjectNode" />
@@ -232,8 +261,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,64 +287,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DequeExample">
-    <configuration name="DequeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.low.DequeExample" />
+  <component name="RunManager" selected="Application.SubArrayExceedingSum">
+    <configuration name="MagicPotion (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.medium.MagicPotion" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coderpad.answers.low.*" />
+          <option name="PATTERN" value="com.coderpad.answers.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PrimeFactors (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.low.PrimeFactors" />
+    <configuration name="MagicPotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.questions.medium.MagicPotion" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coderpad.answers.low.*" />
+          <option name="PATTERN" value="com.java.questions.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.low.SearchTree" />
+    <configuration name="MedianOf2SortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.medium.MedianOf2SortedArrays" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coderpad.answers.low.*" />
+          <option name="PATTERN" value="com.coderpad.answers.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.low.SquareRoot" />
+    <configuration name="SubArrayExceedingSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.medium.SubArrayExceedingSum" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coderpad.answers.low.*" />
+          <option name="PATTERN" value="com.coderpad.answers.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Uniquetuples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.medium.Uniquetuples" />
+      <module name="SapientQuestionsJavaintellij" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coderpad.answers.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="lengthEncoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.low.lengthEncoding" />
-      <module name="SapientQuestionsJavaintellij" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coderpad.answers.low.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -356,19 +385,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PrimeFactors (1)" />
-      <item itemvalue="Application.SearchTree" />
-      <item itemvalue="Application.SquareRoot" />
-      <item itemvalue="Application.lengthEncoding" />
-      <item itemvalue="Application.DequeExample" />
+      <item itemvalue="Application.MagicPotion" />
+      <item itemvalue="Application.MagicPotion (1)" />
+      <item itemvalue="Application.Uniquetuples" />
+      <item itemvalue="Application.MedianOf2SortedArrays" />
+      <item itemvalue="Application.SubArrayExceedingSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DequeExample" />
-        <item itemvalue="Application.lengthEncoding" />
-        <item itemvalue="Application.SquareRoot" />
-        <item itemvalue="Application.SearchTree" />
-        <item itemvalue="Application.PrimeFactors (1)" />
+        <item itemvalue="Application.SubArrayExceedingSum" />
+        <item itemvalue="Application.MedianOf2SortedArrays" />
+        <item itemvalue="Application.Uniquetuples" />
+        <item itemvalue="Application.MagicPotion (1)" />
+        <item itemvalue="Application.MagicPotion" />
       </list>
     </recent_temporary>
   </component>
@@ -398,18 +427,18 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32917705" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.6396509" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.33790523" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.40024936" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.28397712" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4114713" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.48004988" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -418,36 +447,6 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32917705" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3297568" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32917705" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.6396509" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2746781" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4114713" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.40024936" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32917705" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32917705" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -617,12 +616,51 @@
           <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MedianOf2SortedArrays.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="94" />
+      <option name="time" value="100" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>mergeArrays(arr1, arr2)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>minimalSteps(&quot;ABCDABCDABABCDE&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>minimalSteps(&quot;ABCDABCEABABCDE&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>&quot;&quot; + arr[j]</expression-string>
         <language-id>JAVA</language-id>
@@ -653,76 +691,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>(finalArray[finalArray.length/2 - 1] + finalArray[finalArray.length/2])/2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(finalArray[finalArray.length/2 - 1] + finalArray[finalArray.length/2])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(finalArray[finalArray.length/2 - 1] + finalArray[finalArray.length/2])/2;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/IsPowerOf10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/DotProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="600" lean-forward="true" selection-start-line="600" selection-end-line="600" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/Panagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/ApacheLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/ATOI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/ongestwords.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -766,13 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/PascalTraingle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="57" column="58" lean-forward="true" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -838,13 +802,6 @@
             <element signature="imports" expanded="true" />
             <element signature="method#countLengthOfCycle#0;class#CountLengthCycle#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
@@ -997,16 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/PrimeFactors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/GroupAnagram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1052,7 +999,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/GroupAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="195">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1063,14 +1010,99 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/lengthEncoding.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/DequeExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/PascalTraingle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/DotProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/CountLengthOfCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Election.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/PrimeFactors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Uniquetuples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MedianOf2SortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/SubArrayExceedingSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

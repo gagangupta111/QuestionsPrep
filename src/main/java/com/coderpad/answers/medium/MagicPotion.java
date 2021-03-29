@@ -1,5 +1,4 @@
-package com.java.questions.medium;
-
+package com.coderpad.answers.medium;
 
 /*
 Question:
@@ -29,7 +28,7 @@ start from 0th index ,
 keep on checking recursively if we shall move ahead with the sub string check.
 boolean feasible(String input, int startIndex, String inputSubString).
 
-getNext substring to check for repetition
+getNext substring
 String getNext(String original, int startIndex, String origSub).
 
 loop ith index to the original substring length - 1
@@ -40,15 +39,13 @@ boolean doesRepeatExist(String input, int startIndex, String inputSubString).
 
 result = combine the encoded substring + original string starts from original substring length till full length
 
-
 */
 
-public class MagicPotion {
+public class MagicPotion
+{
+    public static boolean feasible(String input, int startIndex, String subString){
 
-
-    public static boolean feasible(String input, int startIndex, String inputSubString){
-
-        if (startIndex > input.length() || startIndex + inputSubString.length() > input.length()){
+        if(startIndex + subString.length() > input.length()){
             return false;
         }
 
@@ -56,63 +53,63 @@ public class MagicPotion {
 
     }
 
-    public static String getNext(String original, int startIndex, String origSub){
 
-        return original.substring(startIndex, startIndex + origSub.length());
+    public static String getNextSubString(String input, int startIndex, String subString){
+
+        return input.substring(startIndex, startIndex + subString.length());
 
     }
 
-    public static boolean doesRepeatExist(String input, int startIndex, String inputSubString){
+    public static boolean doesRepeatExist(String input, int startIndex, String subString){
 
-        String subString = input.substring(startIndex, startIndex + inputSubString.length());
-        if (subString.equalsIgnoreCase(inputSubString)){
+        if (input.substring(startIndex, startIndex + subString.length()).equalsIgnoreCase(subString)){
+
             return true;
+
         }else {
+
             return false;
+
         }
 
     }
 
-
-    private static int minimalSteps( String original )
+    private static int minimalSteps( String input )
     {
 
-        if (original.length() == 1){
-            return 1;
-        }
+        // null checks
 
+
+        // logic starts
         int i = 0;
-        String origSub = original.substring(0,i+1);
-        String newSub = original.substring(0,i+1);
+        String subString = input.substring(0, 1);
+        String encoded = input.substring(0, 1);
 
-        while (i < original.length()){
+        for ( ; i < input.length();){
 
-            if (feasible(original, i+1, origSub)){
+            if (feasible(input, i+1, subString)){
 
-                if (doesRepeatExist(original, i+1, origSub)){
+                if (doesRepeatExist(input, i+1, subString)){
 
-                    origSub = origSub + getNext(original, i+1, origSub);
-                    newSub = newSub + "*";
+                    subString += getNextSubString(input, i+1, subString);
+                    encoded += "*";
 
                 }else {
 
-                    origSub = origSub + original.substring(i+1, i+2);
-                    newSub = newSub + original.substring(i+1, i+2);
+                    subString += input.substring(i+1, i+2);
+                    encoded += input.substring(i+1, i+2);
 
                 }
-
             }else {
                 break;
             }
 
+            i = subString.length() - 1;
 
-            i = origSub.length() - 1;
         }
-
-        String result = (newSub + original.substring(origSub.length(), original.length()));
-        System.out.println("Input: " + original + " : result : " + result);
-        return result.length();
-
+        encoded += input.substring(subString.length(), input.length());
+        System.out.println("Input: " + input + " : result : " + encoded);
+        return encoded.length();
     }
 
     public static void main( String[] args ) {
