@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f788971-d402-49e5-b906-11006b33685c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/CountLengthOfCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Election.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MedianOf2SortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/SubArrayExceedingSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Uniquetuples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DecimalConversio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DistanceBetween2Words.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/low/DotProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/low/DotProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/low/PascalTraingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/low/PascalTraingle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,59 +22,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MagicPotion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MagicPotion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Uniquetuples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Uniquetuples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MedianOf2SortedArrays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MedianOf2SortedArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubArrayExceedingSum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/SubArrayExceedingSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,9 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/Panagram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/ApacheLog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/ATOI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/MediansSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/CountLengthCycle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/UniqueTuplesGivenSize.java" />
@@ -146,6 +85,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Uniquetuples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MedianOf2SortedArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/SubArrayExceedingSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DistanceBetween2Words.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DecimalConversio.java" />
       </list>
     </option>
   </component>
@@ -210,17 +152,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="answers" type="462c0819:PsiDirectoryNode" />
-              <item name="low" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SapientQuestionsJavaintellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SapientQuestionsJavaintellij" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="answers" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="high" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SapientQuestionsJavaintellij" type="b2602c69:ProjectViewProjectNode" />
@@ -239,17 +171,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="questions" type="462c0819:PsiDirectoryNode" />
-              <item name="low" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SapientQuestionsJavaintellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SapientQuestionsJavaintellij" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="questions" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="high" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SapientQuestionsJavaintellij" type="b2602c69:ProjectViewProjectNode" />
@@ -287,25 +209,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubArrayExceedingSum">
-    <configuration name="MagicPotion (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.medium.MagicPotion" />
+  <component name="RunManager" selected="Application.DecimalConversio">
+    <configuration name="DecimalConversio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.high.DecimalConversio" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coderpad.answers.medium.*" />
+          <option name="PATTERN" value="com.coderpad.answers.high.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MagicPotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.questions.medium.MagicPotion" />
+    <configuration name="DistanceBetween2Words" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.high.DistanceBetween2Words" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.questions.medium.*" />
+          <option name="PATTERN" value="com.coderpad.answers.high.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,19 +243,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SubArrayExceedingSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.medium.SubArrayExceedingSum" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.high.Solution" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coderpad.answers.medium.*" />
+          <option name="PATTERN" value="com.coderpad.answers.high.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Uniquetuples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.medium.Uniquetuples" />
+    <configuration name="SubArrayExceedingSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.medium.SubArrayExceedingSum" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -385,19 +307,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MagicPotion" />
-      <item itemvalue="Application.MagicPotion (1)" />
-      <item itemvalue="Application.Uniquetuples" />
       <item itemvalue="Application.MedianOf2SortedArrays" />
       <item itemvalue="Application.SubArrayExceedingSum" />
+      <item itemvalue="Application.DistanceBetween2Words" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.DecimalConversio" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecimalConversio" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.DistanceBetween2Words" />
         <item itemvalue="Application.SubArrayExceedingSum" />
         <item itemvalue="Application.MedianOf2SortedArrays" />
-        <item itemvalue="Application.Uniquetuples" />
-        <item itemvalue="Application.MagicPotion (1)" />
-        <item itemvalue="Application.MagicPotion" />
       </list>
     </recent_temporary>
   </component>
@@ -640,12 +562,45 @@
           <properties />
           <option name="timeStamp" value="99" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DistanceBetween2Words.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DecimalConversio.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DecimalConversio.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="100" />
+      <option name="time" value="107" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>shortestDistance(document, &quot;transfer&quot;, &quot;it&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>shortestDistance(document, &quot;and&quot;, &quot;graphic&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>document, &quot;and&quot;, &quot;graphic&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>mergeArrays(arr1, arr2)</expression-string>
         <language-id>JAVA</language-id>
@@ -676,39 +631,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>fractionRepresentation(result.split(&quot;\\.&quot;)[1], 0)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>result.split(&quot;\\.&quot;)[1]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>uniqueTuples( &quot;aab&quot;, 2 ).contains(hashSet)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/ongestwords.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/Power.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/Election.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -823,16 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/DecimalConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Uniquetuples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -1089,20 +997,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MedianOf2SortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/SubArrayExceedingSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+        <state relative-caret-position="146">
+          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding>
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/DecimalConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DecimalConversio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DistanceBetween2Words.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
