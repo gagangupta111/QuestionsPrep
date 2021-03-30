@@ -34,9 +34,14 @@ import java.io.*;
     get all permutations possible
     int noOfPermutations(String input)
 
+    1.. find highest string possible.
+    2.. find the highest character.
+    3.. loop till this highest character is not -1.
+            find all permutations of this string
+            keep on getting the second highest string
 
-
-
+    add 1, if divisible by 2
+    add 1 for case of all 1's
 
  */
 
