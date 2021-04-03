@@ -1,5 +1,55 @@
 package com.java.questions.high;
 
+/*
+
+DHRUV
+
+
+
+public static Integer optimalPath(Integer[][] grid) {
+   if (grid == null || grid.length == 0 || grid[0].length == 0) {
+      return 0;
+   }
+   int startRow = grid.length - 1;
+   int startCol = 0;
+
+   int finalRow = 0;
+   int finalCol = grid[0].length - 1;
+   int[][] sumGrid = new int[grid.length][grid[0].length];
+   sumGrid[startRow][startCol] = grid[startRow][startCol];
+   Point src = new Point(startRow, startCol);
+   Queue<Point> queue = new LinkedList<>();
+   queue.add(src);
+   while (!queue.isEmpty()) {
+      Point currPoint = queue.poll();
+      Point up = new Point(currPoint.x - 1, currPoint.y);
+      if (currPoint.x >=finalRow && currPoint.y <= finalCol) {
+         sumGrid[up.x][up.y] = Math.max(sumGrid[up.x][up.y], grid[up.x][up.y] + sumGrid[currPoint.x][currPoint.y]);
+         queue.add(up);
+      }
+      Point right = new Point(currPoint.x, currPoint.y + 1);
+      if (currPoint.x >=finalRow && currPoint.y <= finalCol) {
+         sumGrid[right.x][right.y] = Math.max(sumGrid[right.x][right.y], grid[right.x][right.y] + sumGrid[currPoint.x][currPoint.y]);
+         queue.add(right);
+      }
+   }
+   System.out.println(sumGrid[finalRow][finalCol]);
+   return sumGrid[finalRow][finalCol];
+}
+private static class Point {
+    int x;
+    int y;
+    public Point(int x, int y) {
+      this.x = x;
+      this.y = y;
+    }
+}
+
+
+ */
+
+
+
 import com.java.questions.high.graphs.Graph;
 import com.java.questions.high.graphs.Graph_Another;
 import com.java.questions.high.graphs.Node;

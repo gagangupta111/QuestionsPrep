@@ -6,25 +6,34 @@ public class ATOI {
     // the string.
     //For example, atoi("42") returns 42.
 
-    public static int atoi(String str)
-    {
-        if (str.contains(".")){
-            if (str.charAt(0) == '.'){
-                return 0;
-            }
-            return Integer.valueOf(str.split("\\.")[0]);
-        }
-        return Integer.valueOf(str);
+    public static int atoi(String str){
+        int i = 0;
+        int num = 0;
+        boolean isNeg = false;
 
-    };
+        // Check for negative sign; if it's there, set the isNeg flag
+        if (str.charAt(0) == '-') {
+            isNeg = true;
+            i = 1;
+        }
+
+        // Process each character of the string;
+        while( i < str.length()) {
+            num *= 10;
+            num += str.charAt(i++) - '0'; // Minus the ASCII code of '0' to get the value of the charAt(i++).
+        }
+
+        if (isNeg)
+            num = -num;
+        return num;
+    }
 
     public static boolean pass()
     {
         boolean result = true;
-        result = result && (3 == atoi("3"));
-        result = result && (1 != atoi("2"));
         result = result && (-1 == atoi("-1"));
-        result = result && (23 == atoi("23.45"));
+        result = result && (-123 == atoi("-123"));
+        result = result && (123 == atoi("123"));
 
         return result;
     };

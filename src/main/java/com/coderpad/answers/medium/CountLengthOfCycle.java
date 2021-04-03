@@ -33,6 +33,23 @@ public class CountLengthOfCycle {
 
      return the max repetitive substring length.
 
+
+
+     Solution :
+
+     public static int countLengthOfCycle(int[] arr, int startIndex) {
+
+     int slow = arr[startIndex];
+     int fast = arr[arr[startIndex]];
+     int count = 1;
+     while (slow != fast) {
+     slow = arr[slow];
+     fast = arr[arr[fast]];
+     count++;
+     }
+     return count;
+     }
+
      */
 
     public static String makeString( int[] arr, int startIndex ) {

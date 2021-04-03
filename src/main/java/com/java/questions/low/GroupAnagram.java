@@ -2,74 +2,76 @@ package com.java.questions.low;
 
 import java.util.*;
 
+
+/*
+
+
+static void setOfAnagrams(String inputString) {
+
+   String[] words = inputString.split(" ");
+   Map<String, List<String>> map = new HashMap<>();
+
+   for (String word : words) {
+   char[] chars = word.toCharArray();
+
+   Arrays.sort(chars);
+   String sortedStr = new String(chars);
+
+   if (!map.containsKey(sortedStr)) {
+      map.put(sortedStr, new ArrayList<>());
+   }
+
+   map.get(sortedStr).add(word);
+}
+   for (Map.Entry<String, List<String>> entry : map.entrySet()) {
+      entry.getValue().forEach(val -> System.out.print(val + " "));
+}
+  }
+
+ */
+
 public class GroupAnagram {
 
-    static String input = "cat dog tac sat tas god dog";
+    static String setOfAnagrams(String inputString){
 
-    static void setOfAnagrams(String inputString){
+       Map<String, List<String>> stringsmap = new HashMap<>();
 
-        //your code goes here
-        Set<String> anagrams = new LinkedHashSet<>();
-        List<String> all = new LinkedList<>(Arrays.asList(inputString.split(" ")));
+       String[] splitted = inputString.split(" ");
+       String temp = "";
 
-        LinkedHashSet<Integer> set = new LinkedHashSet<>();
+       for (String s : splitted){
 
-        while (all.size() > 0){
+           char[] array = s.toCharArray();
+           Arrays.sort(array);
+           String key = new String(array);
 
-            String one = all.get(0);
-            for (String s : all){
-                if (isAnagram(one, s)){
-                    anagrams.add(s);
-                }
+           if (stringsmap.get(key) == null){
+
+               stringsmap.put(key, new ArrayList<>());
+
+           }
+
+           stringsmap.get(key).add(s);
+
+
+       }
+
+       String finalString = "";
+       for (String key : stringsmap.keySet()){
+            for (String s : stringsmap.get(key)){
+                finalString += s + " ";
             }
+       }
 
-            all.removeAll(anagrams);
-        }
+       return finalString.trim();
 
-        System.out.println(anagrams);
-    }
-
-    public static boolean isAnagram(String one, String two){
-
-        if (one == null && two == null){
-            return true;
-        }
-
-        if (one == null || two == null){
-            return false;
-        }
-
-        if (one.length() != two.length()){
-            return false;
-        }
-
-        List<Integer> oneArray = new ArrayList<>();
-        List<Integer> twoArray = new ArrayList<>();
-
-        for (char c : one.toCharArray()){
-            oneArray.add(Integer.valueOf(c));
-        }
-
-        for (char c : two.toCharArray()){
-            twoArray.add(Integer.valueOf(c));
-        }
-
-        Collections.sort(oneArray);
-        Collections.sort(twoArray);
-
-        for (int i = 0; i < oneArray.size() ; i++){
-            if (oneArray.get(i) != twoArray.get(i)){
-                return false;
-            }
-        }
-
-        return true;
     }
 
     public static void main(String[] args) {
 
-        String input = "cat dog tac sat tas god dog gsjg sjhgh jhsgd";
-        setOfAnagrams(input);
+        String input = "cat dog tac sat tas god dog";
+
+        System.out.println(setOfAnagrams(input));
 
     }
 

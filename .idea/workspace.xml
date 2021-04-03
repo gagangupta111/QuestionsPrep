@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f788971-d402-49e5-b906-11006b33685c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/LongestTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/OptimalPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPackDhruv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/StairCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/TrainMap11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/LongestUniformString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/high/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/high/StairCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/StartCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/StartCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DistanceBetween2Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DistanceBetween2Words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/PrimeFactors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SquareRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/CountLengthOfCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/CountLengthOfCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/Tes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/Tes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/high/OptimalPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/high/OptimalPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/high/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/high/Power.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/low/GroupAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/low/GroupAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/low/SecondSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/low/SecondSmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/medium/ATOI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/medium/ATOI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/questions/low/GroupAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/questions/low/GroupAnagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/questions/low/SecondSmallest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/questions/low/SecondSmallest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,12 +41,39 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TrainMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/TrainMap.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DecimalConversio.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DecimalConversio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="120">
+              <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptimalPath.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/OptimalPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SnowPack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1230">
+              <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SnowPackDhruv.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPackDhruv.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,29 +81,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph.java">
+      <file leaf-file-name="LongestTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/LongestTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Graph_Another.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Another.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Graph_Using_Matrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Using_Matrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="197">
+              <caret line="190" column="4" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#6541#0" expanded="true" />
+                <element signature="e#5101#5102#0" expanded="true" />
+                <element signature="e#5168#5169#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,57 +110,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/UniqueTuplesGivenSize.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/SubArrayExeedingSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/Power.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/RobotMovement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/Distance2Words.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/ongestwords.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/LongestWords.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/DecimalConversion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/Tes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Using_Matrix.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Using_List.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/Deque.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/Deque_Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/GrapExamples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/GraphExamples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Another.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/TrainMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/OptimalPath.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/SnowPack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/LongestUniformSubString.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SmallestNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SecondSmallest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/PrimeFactors.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/PrimeFactors.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/GroupAnagram.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/GroupAnagrams.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/AddFraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/AddFraction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SquareRoot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/lengthEncoding.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/Deque.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/DequeExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/PascalTraingle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/DotProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/CountLengthOfCycle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/CountLengthOfCycle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Election.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Uniquetuples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MedianOf2SortedArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/SubArrayExceedingSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DistanceBetween2Words.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/Dictionary.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DecimalConversio.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/StartCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/TrainMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/TrainMap11.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/CountLengthOfCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/SecondSmallest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/low/GroupAnagram.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/OptimalPath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/PrimeFactors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DistanceBetween2Words.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SquareRoot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/medium/ATOI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/RunLengthEncoding.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/LongestUniformString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/Tes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/StairCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/questions/high/Power.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/StairCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/OptimalPath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPackDhruv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/LongestTree.java" />
       </list>
     </option>
   </component>
@@ -139,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,6 +233,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="answers" type="462c0819:PsiDirectoryNode" />
+              <item name="high" type="462c0819:PsiDirectoryNode" />
+              <item name="LongestTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="SapientQuestionsJavaintellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SapientQuestionsJavaintellij" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="answers" type="462c0819:PsiDirectoryNode" />
+              <item name="low" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SapientQuestionsJavaintellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SapientQuestionsJavaintellij" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="questions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -210,16 +265,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="questions" type="462c0819:PsiDirectoryNode" />
               <item name="high" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SapientQuestionsJavaintellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SapientQuestionsJavaintellij" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="questions" type="462c0819:PsiDirectoryNode" />
-              <item name="low" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SapientQuestionsJavaintellij" type="b2602c69:ProjectViewProjectNode" />
@@ -243,6 +288,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,9 +313,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StartCase">
-    <configuration name="DecimalConversio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.high.DecimalConversio" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="LongestTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.high.LongestTree" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -279,8 +325,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DistanceBetween2Words" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.high.DistanceBetween2Words" />
+    <configuration name="OptimalPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.high.OptimalPath" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -290,30 +336,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SnowPack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.high.SnowPack" />
+    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.questions.high.Power" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coderpad.answers.high.*" />
+          <option name="PATTERN" value="com.java.questions.high.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.high.Solution" />
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coderpad.answers.high.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
-    <configuration name="StartCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.high.StartCase" />
+    <configuration name="StairCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderpad.answers.high.StairCase" />
       <module name="SapientQuestionsJavaintellij" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -365,19 +405,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DistanceBetween2Words" />
+      <item itemvalue="Application.Power" />
+      <item itemvalue="Application.StairCase" />
+      <item itemvalue="Application.OptimalPath" />
+      <item itemvalue="Application.LongestTree" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.DecimalConversio" />
-      <item itemvalue="Application.SnowPack" />
-      <item itemvalue="Application.StartCase" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StartCase" />
-        <item itemvalue="Application.SnowPack" />
-        <item itemvalue="Application.DecimalConversio" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.DistanceBetween2Words" />
+        <item itemvalue="Application.LongestTree" />
+        <item itemvalue="Application.OptimalPath" />
+        <item itemvalue="Application.StairCase" />
+        <item itemvalue="Application.Power" />
       </list>
     </recent_temporary>
   </component>
@@ -407,18 +447,18 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32917705" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.33790523" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.340399" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.4339152" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.29675812" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.28755364" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3090129" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.48004988" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.29177058" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -496,15 +536,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/java/questions/high/Power.java</url>
-          <line>26</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/java/questions/high/Power.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/java/questions/high/RobotMovement.java</url>
@@ -609,22 +643,10 @@
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MedianOf2SortedArrays.java</url>
           <line>13</line>
           <properties />
           <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DistanceBetween2Words.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DecimalConversio.java</url>
@@ -640,13 +662,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPack.java</url>
-          <line>74</line>
+          <line>91</line>
           <properties />
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPack.java</url>
-          <line>92</line>
+          <line>109</line>
           <properties />
           <option name="timeStamp" value="109" />
         </line-breakpoint>
@@ -662,12 +684,39 @@
           <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/LongestUniformString.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/questions/high/Power.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="115" />
+      <option name="time" value="134" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>adj[nameToIndex.get(from[0] + &quot;&quot; + from[1])][nameToIndex.get(to[0] + &quot;&quot; + to[1])]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nameToIndex.get(to[0] + &quot;&quot; + to[1])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nameToIndex.get(from[0] + &quot;&quot; + from[1])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>Integer.valueOf(character)</expression-string>
         <language-id>JAVA</language-id>
@@ -698,208 +747,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>minimalSteps(&quot;ABCDABCDABABCDE&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>minimalSteps(&quot;ABCDABCEABABCDE&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>&quot;&quot; + arr[j]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/UniqueTuplesGivenSize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/SubArrayExeedingSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/RunLengthEncoding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/SecondSmallest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/SearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/FindMin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/FirstNonRepeating.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/Tes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/CountLengthCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#countLengthOfCycle#0;class#CountLengthCycle#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/LongestWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/Distance2Words.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/RobotMovement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Using_List.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/Deque_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/GraphExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/OptimalPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/SnowPack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/LongestUniformSubString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SmallestNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SecondSmallest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/PrimeFactors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/GroupAnagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/AddFraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -911,13 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="68" lean-forward="true" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SquareRoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -956,48 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/CountLengthOfCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Election.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/PrimeFactors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Uniquetuples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
@@ -1032,39 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DistanceBetween2Words.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Using_Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/StartCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3620#3621#0" expanded="true" />
-            <element signature="e#3661#3662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DecimalConversio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1075,27 +851,270 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Using_Matrix.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="446">
+          <caret line="562" column="7" lean-forward="true" selection-start-line="562" selection-start-column="7" selection-end-line="562" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Another.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="212" column="31" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/TrainMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/TrainMap11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/Distance2Words.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/IsPowerOf10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/Election.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/Panagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/MediansSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/GroupAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/OptimalPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="89" selection-start-line="26" selection-start-column="89" selection-end-line="26" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/CountLengthCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#countLengthOfCycle#0;class#CountLengthCycle#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/CountLengthOfCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DistanceBetween2Words.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/MagicPotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="80" column="62" lean-forward="true" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SecondSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/SecondSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/low/PrimeFactors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/PrimeFactors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="117" column="30" lean-forward="true" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/SquareRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/Election.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/medium/MagicPotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/RunLengthEncoding.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/low/LongestUniformString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/medium/ATOI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/Tes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/StartCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1808">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/graphs/Graph_Another.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/Power.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+        <state relative-caret-position="28">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/StairCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/StairCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/questions/high/SnowPack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/DecimalConversio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/OptimalPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/SnowPackDhruv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderpad/answers/high/LongestTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="190" column="4" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#6541#0" expanded="true" />
+            <element signature="e#5101#5102#0" expanded="true" />
+            <element signature="e#5168#5169#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

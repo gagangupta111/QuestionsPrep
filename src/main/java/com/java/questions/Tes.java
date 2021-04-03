@@ -1,40 +1,34 @@
 package com.java.questions;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Tes {
 
     public static void main(String[] args){
 
-        String s = "abcd,abcd";
-        String[] strings = s.split(",");
+        int i = -2;
+        int j = -9;
+        System.out.println(i + j);
 
-        System.out.println(String.join(",", strings));
+        System.out.println(Math.abs(i+j));
+
+        System.out.println("substring::");
+
+        System.out.println(Arrays.toString("a.b.c.de".split("\\.")));
 
 
-        System.out.println();
+        switch ("B"){
 
-        Object o = 10.0;
+            case "A":
+                System.out.println("A");
+                break;
+            case "B":
+                System.out.println("B");
+                break;
 
-        if (o instanceof Double){
-            System.out.println("True");
         }
-
-        System.out.println(22/7);
-        System.out.println(22/7.0);
-
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-
-        System.out.println(list);
-
-        list.remove(new Integer(2));
-
-        System.out.println(list);
-
 
     }
 

@@ -52,16 +52,33 @@ package com.coderpad.answers.high;
  *
  *      4. repeat step 2 and 3 till the function getHighestNotConsumedIndexMountain returns -1;
  *
- *
- *
- *
- *
- *
- *
+
+public static Integer computeSnowpack(Integer[] arr) {
+    if (arr.length < 3) {
+        return 0;
+    }
+    int sum = 0;
+    int[] left = new int[arr.length];
+    int[] right = new int[arr.length];
+    left[0] = arr[0];
+    for (int i = 1; i < arr.length; i++) {
+        left[i] = Math.max(arr[i], left[i - 1]);
+    }
+    left[arr.length - 1] = arr[arr.length - 1];
+    for (int i = arr.length - 2; i >= 0; i--) {
+        right[i] = Math.max(arr[i], right[i + 1]);
+    }
+    for (int i = 0; i < arr.length; i++) {
+        sum += Math.min(left[i], right[i]) - arr[i];
+    }
+    return sum;
+}
+
+
  */
 
-import java.io.*;
-        import java.util.*;
+
+import java.util.*;
 
 class SnowPack
 {
