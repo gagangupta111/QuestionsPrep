@@ -1,3 +1,5 @@
+package com.coderpad.answers.high;
+
 /*
  **  Instructions:
  **
@@ -24,9 +26,9 @@
  */
 
 import java.util.*;
+import java.util.stream.Collectors;
 
-
-class Solution
+public class LongestTree
 {
     /*
      ** Get the size of the tree with root index rootIndex
@@ -50,8 +52,29 @@ class Solution
      */
     public static Integer largestTree(final Map<Integer,Integer> immediateParent)
     {
-        //your code
-        return 0;
+
+        Graph graph = Graph.mapToGraph(immediateParent);
+        graph.print();
+
+        List<Node> list = new ArrayList<>();
+        for (Integer integer : graph.rootNodes){
+            Node node = new Node();
+            node.rootNode = integer;
+
+            node.size = graph.DFS(integer).size();
+            node.rootNode = graph.indexToName.get(node.rootNode);
+            list.add(node);
+
+        }
+
+        Collections.sort(list, (s1, s2) -> s2.size - s1.size);
+
+        final int max = list.get(0).size;
+        list = list.stream().filter(s1 -> s1.size >= max).collect(Collectors.toList());
+
+        Collections.sort(list, (s1, s2) -> s1.rootNode - s2.rootNode);
+            //your code
+        return (list.get(0).rootNode);
     }
 
     /*
@@ -85,27 +108,29 @@ class Solution
 
         // really large index values
         final Map<Integer,Integer> testCaseThreeKey = new HashMap<Integer, Integer>() {{
-            put( 200000000, 300000000 );
-            put( 500000000, 200000000 );
-            put( 700000000, 300000000 );
-            put( 600000000, 700000000 );
-            put( 900000000, 400000000 );
-            put( 100000000, 400000000 );
-            put( 800000000, 400000000 );
-            put( 1000000000, 400000000 );
+            put( 2, 3 );
+            put( 5, 2 );
+            put( 7, 3 );
+            put( 6, 7 );
+            put( 9, 4 );
+            put( 1, 4 );
+            put( 8, 4 );
+            put( 1, 4 );
         }};
-        testCases.put(testCaseThreeKey, 300000000);
+        testCases.put(testCaseThreeKey, 3);
 
         // two trees of same size
         final Map<Integer,Integer> testCaseFourKey = new HashMap<Integer, Integer>() {{
             put( 9, 4 );
             put( 1, 4 );
-            put( 5, 2 );
-            put( 8, 4 );
-            put( 7, 3 );
-            put( 2, 3 );
-            put( 6, 7 );
             put( 10, 4 );
+            put( 8, 4 );
+
+            put( 5, 2 );
+            put( 2, 3 );
+            put( 7, 3 );
+            put( 6, 7 );
+
         }};
         testCases.put(testCaseFourKey, 3);
 
@@ -122,9 +147,6 @@ class Solution
             put( 22, 29 );
         }};
         testCases.put(testCaseFiveKey, 23);
-
-        Graph graph = Graph.mapToGraph(testCaseFiveKey);
-        graph.print();
 
         boolean passed = true;
         for(Map.Entry<Map<Integer,Integer>, Integer> entry : testCases.entrySet())
@@ -162,6 +184,7 @@ class Graph{
     int totalNodes;
     int[][] adj;
     int index = 0;
+    public static Set<Integer> rootNodes;
 
     Map<Integer, Integer> nameToIndex = new HashMap<>();
     Map<Integer, Integer> indexToName = new HashMap<>();
@@ -189,28 +212,44 @@ class Graph{
 
     }
 
+    public Set<Integer> DFS(int source){
 
-    public void DFS(int currIndex, Set<Integer> visited){
+         Set<Integer> visited = DFS(source, new HashSet<>());
+         return visited;
 
-        if(!visited.contains(currIndex)){
+    }
+
+    public Set<Integer> DFS(int currIndex, Set<Integer> visited){
+
+        if(!visited.contains(currIndex)) {
 
             visited.add(currIndex);
+            for (int j = 0; j < adj[0].length; j++) {
 
+                if (adj[currIndex][j] == 1) {
+                    DFS(j, visited);
+                }
 
+            }
         }
+
+        return visited;
 
     }
 
     public static Graph mapToGraph(Map<Integer, Integer> map){
 
         Set<Integer> allNodes = new LinkedHashSet<>();
-        List<Integer> rootNodes = new ArrayList<>();
-        Map<Integer, Integer> edges = new HashMap<>();
+        List<Pair> edges = new ArrayList<>();
+        Set<Integer> rootNodes = new HashSet<>();
 
         for(Map.Entry<Integer, Integer> entry : map.entrySet()){
 
             Integer key = entry.getKey();
-            edges.put(entry.getValue(), entry.getKey());
+            Pair pair = new Pair();
+            pair.key  =entry.getValue();
+            pair.value = entry.getKey();
+            edges.add(pair);
 
             allNodes.add(key);
             allNodes.add(entry.getValue());
@@ -229,15 +268,34 @@ class Graph{
 
         }
 
-        for(Map.Entry<Integer, Integer> entry : edges.entrySet()){
-            graph.addEdge(entry.getKey(), entry.getValue());
+        for(Pair entry : edges){
+            graph.addEdge(entry.key, entry.value);
+            graph.addEdge(entry.value, entry.key);
         }
+
+        Set<Integer> indexRootNodes = new HashSet<>();
+        for (int i : rootNodes){
+            indexRootNodes.add(graph.nameToIndex.get(i));
+        }
+
+        graph.rootNodes = indexRootNodes;
 
         return graph;
 
     }
+}
 
 
+class Pair{
 
+    public int key;
+    public int value;
+
+}
+
+class Node{
+
+    public int rootNode;
+    public int size;
 
 }
