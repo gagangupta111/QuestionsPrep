@@ -48,7 +48,18 @@ public class CountLengthOfCycle {
      count++;
      }
      return count;
+
      }
+
+     [1,2,3,4,5,6,4], 6
+
+     [7], 0
+
+
+     12345 645 645 645
+
+
+
 
      */
 
@@ -115,50 +126,64 @@ public class CountLengthOfCycle {
 
     }
 
-    public static int countLengthOfCycle( int[] arr, int startIndex ) {
+    public static boolean checkIndex(int[] arr, int index){
 
 
-        String whole = makeString(arr, startIndex);
-        System.out.println(whole);
-
-        Set<String> setSubStrings = new HashSet<>();
-        int maxSubRepSubString = 0;
-
-        for (int i = 0; i < whole.length() / 2 ; i++){
-
-
-            String findFirstString = findFirstString(whole, i);
-
-            if(doesDuplicateExist(whole, i + findFirstString.length(), findFirstString)){
-
-                if(findFirstString.length() > maxSubRepSubString){
-                    maxSubRepSubString = findFirstString.length();
-                }
-                if(setSubStrings.contains(findFirstString)){
-
-                    break;
-
-                }
-
-            }
-
-
+        if(index < 0 || index >= arr.length){
+            return false;
         }
 
-        return maxSubRepSubString;
+        return true;
 
     }
+
+    public static int countLengthOfCycle(int[] arr, int startIndex) {
+
+        if(!checkIndex(arr, startIndex) ){
+            return -1;
+        }
+
+        int slow = arr[startIndex];
+        if (!checkIndex(arr, slow)){
+            return -1;
+        }
+        int fast = arr[arr[startIndex]];
+        if(!checkIndex(arr, fast) ){
+            return -1;
+        }
+        int count = 1;
+        while (slow != fast) {
+            slow = arr[slow];
+            if(!checkIndex(arr, slow) ){
+                return -1;
+            }
+            fast = arr[arr[fast]];
+            if(!checkIndex(arr, fast) ){
+                return -1;
+            }
+            count++;
+        }
+
+        slow = arr[slow];
+        fast = arr[arr[fast]];
+        count = 1;
+        while (slow != fast) {
+            slow = arr[slow];
+            fast = arr[arr[fast]];
+            count++;
+        }
+
+        return count;
+    }
+
 
 
     public static void main( String[] args ) {
 
         boolean testsPassed = true;
 
-        testsPassed &= countLengthOfCycle(new int[]{1, 0}, 0) == 2;
-        testsPassed &= countLengthOfCycle(new int[]{1, 2, 0}, 0) == 3;
-
-        testsPassed &= countLengthOfCycle(new int[]{ 4, 1, 2, 0, 5, 6, 1, 2}, 0) == 1;
-
+        testsPassed  = testsPassed && countLengthOfCycle(new int[]{1, 2, 3, 4, 5, 6, 4}, 0) == 3;
+        System.out.println("Length: " + countLengthOfCycle(new int[]{1, 2, 3, 4, 5, 6, 4}, 0));
         if(testsPassed) {
             System.out.println( "Test passed." );
             //return true;
